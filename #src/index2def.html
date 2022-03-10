@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{})
+    <main class="page _container">
+      <div class="block">
+
+        <div class="block__item">
+          <div class="block__title">Являетесь ли вы государственной или негосударственной организацией?
+          </div>
+          <div class="block__myoption myoptions">
+            <a href="./index9estlic-yourdef.html">
+              <div class="myoptions__item">
+                <div class="myoptions__text">Государсвтенная</div>
+              </div>
+            </a>
+            <a href="./index7license.html">
+              <div class="myoptions__item">
+                <div class="myoptions__text">Негосударсвтенная</div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="control_panel">
+        <div class="control_panel__items">
+          <button class="control_panel__back"><a href="./index.html">назад</a></button>
+        </div>
+      </div>
+
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  <!-- @@include('_popup.html',{}) -->
+  @@include('_js.html',{})
+</body>
+
+</html>

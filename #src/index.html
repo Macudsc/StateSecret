@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page _container">
+			<div class="infop">
+				<div class="infop__text">
+					Вас приветсвует информационный портал, содержащий информацию о защите государственной тайны! Здесь Вы
+					ознакомитесь с тем, кто, что, как и зачем защищают государственную тайну.
+				</div>
+			</div>
+			<div class="block">
+
+				<div class="block__item">
+					<div class="block__title">Являетесь ли Вы субъектом защищающим государственную тайну или
+						субъектом, проверяющим её защиту?
+					</div>
+					<div class="block__myoption myoptions">
+						<a href="./index2def.html">
+							<div class="myoptions__item">
+								<div class="myoptions__text">Субъект, защищающий государственную тайну</div>
+							</div>
+						</a>
+						<a href="./index3_check.html">
+							<div class="myoptions__item">
+								<div class="myoptions__text">Информация о субъектах, проверяющий защиту</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+
+			</div>
+
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	<!-- @@include('_popup.html',{}) -->
+	@@include('_js.html',{})
+</body>
+
+</html>

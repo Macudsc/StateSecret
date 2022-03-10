@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{})
+    <main class="page _container">
+      <div class="block">
+
+        <div class="block__item">
+          <div class="block__title">У вас есть лицензия на проведение работ, связанных с использованием
+            сведений, составляющих государственную тайну?
+          </div>
+          <div class="block__myoption myoptions">
+            <a href="./index8nolic.html">
+              <div class="myoptions__item">
+                <div class="myoptions__text">У нашей организации лицензии ещё нет.</div>
+              </div>
+            </a>
+            <a href="./index4wanttoseecheck.html">
+              <div class="myoptions__item">
+                <div class="myoptions__text">У нашей организации есть лицензия.</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="control_panel">
+        <div class="control_panel__items">
+          <button class="control_panel__back"><a href="./index2def.html">назад</a></button>
+        </div>
+      </div>
+
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  <!-- @@include('_popup.html',{}) -->
+  @@include('_js.html',{})
+</body>
+
+</html>

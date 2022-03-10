@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Главная"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{})
+    <main class="page _container">
+      <div class="block">
+
+        <div class="block__item">
+          <div class="block__title">Организация и осуществление пропускного режима
+          </div>
+          <div class="block__text">
+            <p class="block__li">Создание контрольно-пропускного пункта (поста).</p>
+            <p class="block__li">Создание Порядка оформления и выдачи пропусков, дающих право входа на территорию
+              конкретного объекта,</p>
+            <p class="block__li">Создание перечня видов пропусков, дающих право входа на территорию конкретного объекта,
+            </p>
+            <p class="block__li">Образцы пропусков должны браться из “типовой инструкции о пропускном режиме”</p>
+          </div>
+          <div class="block__links link">
+            <div class="link__item">
+              <a href="./docs/InstuctPropusk.doc">
+                <div class="link__text">Приложение № 12 к: "Типовая инструкция о пропускном режиме на объектах,
+                  находящихся в ведении территориальных органов МВД России, организаций и подразделений, созданных для
+                  выполнения задач и осуществления полномочий, возложенных на органы внутренних дел"
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="control_panel">
+        <div class="control_panel__items">
+          <button class="control_panel__back"><a href="./index9estlic-yourdef.html">к
+              списку
+              обязанностей</a></button>
+          <button class="control_panel__next"><a href="./indexn10otvetstvennost.html">далее, к
+              ответственности</a></button>
+        </div>
+      </div>
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  <!-- @@include('_popup.html',{}) -->
+  @@include('_js.html',{})
+</body>
+
+</html>
